@@ -32,5 +32,11 @@ if ($eesnimi_algab_vokaaliga) {
     echo "<p>Nimi algab vokaaliga</p>";
 };
 
+//20.ylesanne
+echo "<br>";
+$a = 1.23;
+$b = 2.34;
+$float_sum= $a + $b;
+echo " $float_sum ";
 
 ?>
