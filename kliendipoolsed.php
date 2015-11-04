@@ -62,7 +62,7 @@
 <button id="Blue">blue</button>
 <button id="Green">green</button>
     </span>
- <script>
+ <!-- <script>
     $('#Red').click(function () {
         $('body').css('backgroundColor', $('#Red').text());
     });
@@ -72,8 +72,23 @@
     $('#Green').click(function () {
         $('body').css('backgroundColor', $('#Green').text());
     });
-</script>
+</script> -->
 <br>
+<!-- 8.ylesanne -->
+<script>
+    $('#Blue').click(function () {
+        $('body').css('backgroundColor', $('#Blue').text());
+        $('body').css("background-color", "Blue");
+    });
+    $('#Red').click(function () {
+        $('body').css('backgroundColor', $('#Red').text());
+        $('body').css("background-color", "Red");
+    });
+    $('#Green').click(function () {
+        $('body').css('backgroundColor', $('#Green').text());
+        $('body').css("background-color", "Green");
+    });
+</script>
 
 </body>
 </html>
