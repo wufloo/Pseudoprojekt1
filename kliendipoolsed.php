@@ -108,6 +108,19 @@
     });
 </script>
 <br>
+<!-- 11.ylesanne -->
+<br>
+<script>
+    $(document).ready(function () {
+        $("#kasss").click(function () {
+            $("#imgkass").toggle();
+        });
+    });
+</script>
+<img id="imgkass" src="kass.jpg" height="150" width="150">
+<br>
+<button id="kasss">Peida/näita kassi pilti</button>
+
 
 </body>
 </html>
