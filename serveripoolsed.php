@@ -3,6 +3,6 @@
 
 $eesnimi = "Janre";
 $perekonnanimi = "Press";
-
-echo "$eesnimi $perekonnanimi ";
+$vanus = "21";
+echo "$eesnimi $perekonnanimi ($vanus)";
 ?>
