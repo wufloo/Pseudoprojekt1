@@ -39,4 +39,7 @@ $b = 2.34;
 $float_sum= $a + $b;
 echo " $float_sum ";
 
+// 21.ylesanne
+echo $_GET['koer'];
+
 ?>
