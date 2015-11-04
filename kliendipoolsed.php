@@ -41,6 +41,17 @@
         }
     }
 </script>
+<!--- 6.ylesanne --->
+<div><img id="kass" src="kass.jpg" height="150" width="150"></div>
+<script>
+    $(document).ready(function () {
+        $("#kass").click(function () {
+            $(this).replaceWith('<img src="koer.jpg" height="150" width="150">');
+        });
+
+    });
+</script>
+<br>
 </body>
 </html>
 <?php
