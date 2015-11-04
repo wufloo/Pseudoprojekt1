@@ -89,6 +89,15 @@
         $('body').css("background-color", "Green");
     });
 </script>
+<!-- 9.ylesanne -->
+<script>
+    $(document).ready(function () {
+        $(document).on("contextmenu", function (e) {
+            if (e.target.nodeName != "INPUT" && e.target.nodeName != "TEXTAREA")
+                e.preventDefault();
+        });
+    });
+</script>
 
 </body>
 </html>
