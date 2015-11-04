@@ -25,6 +25,22 @@
     }
 
 </script>
+<!--- 5.ylesanne --->
+<p>
+    <img alt="" src="kass.jpg"
+         style="height: 150px; width: 150px" id="imgClickAndChange" onclick="changeImage()"/>
+</p>
+<script language="javascript">
+    function changeImage() {
+
+        if (document.getElementById("imgClickAndChange").src == "kass.jpg") {
+            document.getElementById("imgClickAndChange").src = "koer.jpg";
+        }
+        else {
+            document.getElementById("imgClickAndChange").src = "koer.jpg";
+        }
+    }
+</script>
 </body>
 </html>
 <?php
