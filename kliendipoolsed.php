@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="http://code.jquery.com/jquery-latest.js"></script>
 </head>
 <body>
 <!--- 2.ylesanne --->
@@ -23,6 +28,22 @@
 
     }
 
+</script>
+<!--- 5.ylesanne --->
+<p>
+    <img alt="" src="kass.jpg"
+         style="height: 150px; width: 150px" id="imgClickAndChange" onclick="changeImage()"/>
+</p>
+<script language="javascript">
+    function changeImage() {
+
+        if (document.getElementById("imgClickAndChange").src == "kass.jpg") {
+            document.getElementById("imgClickAndChange").src = "koer.jpg";
+        }
+        else {
+            document.getElementById("imgClickAndChange").src = "koer.jpg";
+        }
+    }
 </script>
 
 </body>
