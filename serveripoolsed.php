@@ -26,7 +26,9 @@ class isik
 $janre = new isik;
 echo "" . $janre->eesnimi . " " . $janre->perekonnanimi . " (" . $janre->vanus . ") ";
 
-
+if ($eesnimi_algab_vokaaliga) {
+    echo "<p>Nimi algab vokaaliga</p>";
+};
 
 
 ?>
