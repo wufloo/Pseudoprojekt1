@@ -7,7 +7,7 @@ $vanus = "21";
 echo "$eesnimi $perekonnanimi ($vanus)";
 
 $janre = new isik;
-
+// 19.ylesanne//
 $vowels = array('A', 'E', 'I', 'O', 'U', 'Õ', 'Ä', 'Ö', 'Ü', 'a', 'e', 'i', 'o', 'u', 'õ', 'ä', 'ö', 'ü');
 if (in_array(substr($janre->eesnimi, 0, 1), $vowels)) {
     $eesnimi_algab_vokaaliga = true;
