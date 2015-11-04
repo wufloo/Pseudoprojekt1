@@ -21,10 +21,10 @@
 <a href="http://khk.ee/" onclick="return confirm('Tere maailm')" >Tere maailm</a>
 <!-- 4.ylesanne -->
 
-<a href="http://facebook.com" onclick="myFunction();return false" >Jääme siia</a>
+<a href="http://facebook.com" onclick="myFunction();return false" >Jï¿½ï¿½me siia</a>
 <script>
     function myFunction() {
-        alert("Jääme siia");
+        alert("Jï¿½ï¿½me siia");
 
     }
 
@@ -100,7 +100,7 @@
 </script>
 <!-- 10.ylesanne -->
 <br>
-<button id="klops">Luba parem klõps</button>
+<button id="klops">Luba parem klï¿½ps</button>
 <script>
     $("#klops").click(function () {
         -$(document).unbind();
@@ -119,7 +119,7 @@
 </script>
 <img id="imgkass" src="kass.jpg" height="150" width="150">
 <br>
-<button id="kasss">Peida/näita kassi pilti</button>
+<button id="kasss">Peida/nï¿½ita kassi pilti</button>
 
 
 </body>
