@@ -56,6 +56,24 @@
     });
 </script>
 <br>
+<!-- 7.ylesanne -->
+<span class="buttons">
+<button id="Red">red</button>
+<button id="Blue">blue</button>
+<button id="Green">green</button>
+    </span>
+ <script>
+    $('#Red').click(function () {
+        $('body').css('backgroundColor', $('#Red').text());
+    });
+    $('#Blue').click(function () {
+        $('body').css('backgroundColor', $('#Blue').text());
+    });
+    $('#Green').click(function () {
+        $('body').css('backgroundColor', $('#Green').text());
+    });
+</script>
+<br>
 
 </body>
 </html>
