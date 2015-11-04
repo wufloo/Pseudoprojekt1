@@ -20,11 +20,12 @@ class isik
     var $eesnimi = "Janre";
     var $perekonnanimi = "Press";
     var $vanus = 21;
+    var $sugu = "mees";
 
 }
 
 $janre = new isik;
-echo "" . $janre->eesnimi . " " . $janre->perekonnanimi . " (" . $janre->vanus . ") ";
+echo "" . $janre->eesnimi . " " . $janre->perekonnanimi . " (" . $janre->vanus . ") " . $janre->sugu . " ";
 
 if ($eesnimi_algab_vokaaliga) {
     echo "<p>Nimi algab vokaaliga</p>";
