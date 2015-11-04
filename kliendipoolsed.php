@@ -12,6 +12,8 @@
         alert("Tere maailm");
     }
 </script>
+<!--- 3.ylesanne --->
+<a href="http://khk.ee/" onclick="return confirm('Tere maailm')" >Tere maailm</a>
 
 </body>
 </html>
