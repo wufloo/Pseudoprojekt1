@@ -98,6 +98,16 @@
         });
     });
 </script>
+<!-- 10.ylesanne -->
+<br>
+<button id="klops">Luba parem klõps</button>
+<script>
+    $("#klops").click(function () {
+        -$(document).unbind();
+
+    });
+</script>
+<br>
 
 </body>
 </html>
