@@ -22,5 +22,5 @@ if (isset($_GET['page'])) {
     }
 $page = (!empty($_GET['page']) ? $_GET['page'] : 'home');
 
-require($page . '.php')
+require($page . '.php');
 ?>
