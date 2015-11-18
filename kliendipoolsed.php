@@ -18,10 +18,10 @@
     }
 </script>
 <!--- 3.ylesanne --->
-<a href="http://khk.ee/" onclick="return confirm('Tere maailm')" >Tere maailm</a>
+<a href="http://khk.ee/" onclick="return confirm('Tere maailm')">Tere maailm</a>
 <!-- 4.ylesanne -->
 
-<a href="http://facebook.com" onclick="myFunction();return false" >J��me siia</a>
+<a href="http://facebook.com" onclick="myFunction();return false">J��me siia</a>
 <script>
     function myFunction() {
         alert("J��me siia");
@@ -58,35 +58,35 @@
 <br>
 <!-- 7.ylesanne -->
 <span class="buttons">
-<button id="Red">red</button>
-<button id="Blue">blue</button>
+<button id="Blue">yellow</button>
+<button id="Red">purple</button>
 <button id="Green">green</button>
     </span>
- <!-- <script>
-    $('#Red').click(function () {
-        $('body').css('backgroundColor', $('#Red').text());
-    });
-    $('#Blue').click(function () {
-        $('body').css('backgroundColor', $('#Blue').text());
-    });
-    $('#Green').click(function () {
-        $('body').css('backgroundColor', $('#Green').text());
-    });
+<!-- <script>
+   $('#Red').click(function () {
+       $('body').css('backgroundColor', $('#Red').text());
+   });
+   $('#Blue').click(function () {
+       $('body').css('backgroundColor', $('#Blue').text());
+   });
+   $('#Green').click(function () {
+       $('body').css('backgroundColor', $('#Green').text());
+   });
 </script> -->
 <br>
 <!-- 8.ylesanne -->
 <script>
     $('#Blue').click(function () {
-        $('body').css('backgroundColor', $('#Blue').text());
         $('body').css("background-color", "Blue");
-    });
-    $('#Red').click(function () {
-        $('body').css('backgroundColor', $('#Red').text());
-        $('body').css("background-color", "Red");
+        $('body').css('backgroundColor', $('#Blue').text());
     });
     $('#Green').click(function () {
-        $('body').css('backgroundColor', $('#Green').text());
         $('body').css("background-color", "Green");
+        $('body').css('backgroundColor', $('#Green').text());
+    });
+    $('#Red').click(function () {
+        $('body').css("background-color", "Red");
+        $('body').css('backgroundColor', $('#Red').text());
     });
 </script>
 <!-- 9.ylesanne -->
